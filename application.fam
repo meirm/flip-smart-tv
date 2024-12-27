@@ -1,0 +1,17 @@
+App(
+    appid="smartir",
+    name="SmartTV IR demo",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="ir_smart_tv_app",
+    cdefines=["SMART_TV_DEMO_APP"],
+    requires=[
+        "gui",
+    ],
+    stack_size=2 * 1024,
+    order=100,
+    fap_description="SmartIR",
+    fap_author="Meir Michanie",
+    fap_weburl="https://github.com/meirm/flip-smart-tv",
+    fap_category="Infrared",
+    fap_icon="icon.png",
+)
