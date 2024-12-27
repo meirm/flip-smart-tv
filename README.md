@@ -1,5 +1,8 @@
 # Smart TV IR Control for Flipper Zero
 
+<p align="center">
+    <img src="flip_smart_tv.png" alt="Smart TV IR Control" width="800">
+</p>
 This application allows you to control your Smart TV using the Flipper Zero's jog wheel. The Smart TV IR Control app sends infrared signals to your TV, enabling you to perform various actions such as changing channels, adjusting the volume, and navigating menus.
 
 ## Features
